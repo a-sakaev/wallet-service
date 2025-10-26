@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/scripts/v1_create_wallet_table.sql
+  - include:
+      file: db/changelog/scripts/v2_create_wallet_transaction.sql
